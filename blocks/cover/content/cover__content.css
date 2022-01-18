@@ -1,0 +1,12 @@
+.cover__content {
+    display: flex;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 560px;
+    z-index: 2;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

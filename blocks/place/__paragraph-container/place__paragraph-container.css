@@ -1,0 +1,4 @@
+.place__paragraph-container {
+    width: 100%;
+    grid-area: paragraph;
+}

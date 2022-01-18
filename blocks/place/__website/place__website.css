@@ -1,0 +1,8 @@
+.place__website {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    grid-area: url;
+    justify-content: flex-end;
+}

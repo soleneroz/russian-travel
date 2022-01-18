@@ -1,0 +1,14 @@
+.place {
+    display: grid;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: 
+    "title url"
+    "image paragraph";
+    margin-bottom: 80px;
+}
+
+.place:last-child{
+    margin-bottom: 0px;
+}
