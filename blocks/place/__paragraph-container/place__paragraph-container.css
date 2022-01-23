@@ -1,4 +1,11 @@
 .place__paragraph-container {
-    width: 100%;
+    max-width: 100%;
     grid-area: paragraph;
+}
+
+@media (max-width: 320px) {
+    .place__paragraph-container {
+        margin: 0 auto;
+        max-width: 288px;
+    }
 }

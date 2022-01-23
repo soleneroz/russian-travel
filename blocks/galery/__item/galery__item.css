@@ -2,3 +2,12 @@
     max-width: 100%;
 }
 
+@media (max-width: 320px) {
+    .galery__item {
+    margin-bottom: 12px;  
+}
+    .galery__item:last-child{ 
+    margin-bottom: 0px;
+}
+}
+

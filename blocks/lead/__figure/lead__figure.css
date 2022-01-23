@@ -2,3 +2,15 @@
     max-width: 100%;
     margin: 0;
 }
+
+@media (max-width: 768px){ 
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}

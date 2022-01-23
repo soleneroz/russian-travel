@@ -4,9 +4,27 @@
     margin: 0 auto;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    color: #ffffff;
+    color: #fff;
     padding-top: 28px;
     padding-bottom: 24px;
-    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+@media (max-width: 1024px) {
+    .content {
+      max-width: 1024px;
+    }
+  }
+  @media (max-width: 768px) {
+    .content {
+      max-width: 768px;
+    }
+  }
+  @media (max-width: 320px) {
+    .content {
+      max-width: 320px;
+      padding-bottom: 24px;
+      padding-top: 16px;
+    }
+  }

@@ -4,4 +4,18 @@
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 56px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .header {
+       margin-bottom: 48px;
+       max-width: 90.8%;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        max-width: 94%;
+    }
 }

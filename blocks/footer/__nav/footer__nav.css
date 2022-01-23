@@ -4,3 +4,22 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    .footer__nav {
+        max-width: 90.63%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__nav {
+        max-width: 93.8%;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__nav {
+        max-width: 60%;
+        margin: 0;
+    }
+}

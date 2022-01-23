@@ -5,5 +5,20 @@
     line-height: 1.2;
     margin-top: 32px;
     margin-bottom: 64px;
-    /* padding: 0; */
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+@media (max-width: 425px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
 }

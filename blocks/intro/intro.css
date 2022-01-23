@@ -6,5 +6,26 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 92px;
+    /* margin-left: 92px; */
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 88px;
+    }
+}
+@media (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
 }

@@ -29,3 +29,23 @@
     opacity: .7;
     transition: opacity .4s ease;
 }
+
+@media (max-width: 1024px) {
+    .cover {
+        min-height: 640px;
+        /* background-size: 100% 640px; */
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+        /* background-size: 100% 300px; */
+    }
+}
+
+@media (max-width: 425px) {
+    .cover {
+       min-height: 200px;
+    }
+}

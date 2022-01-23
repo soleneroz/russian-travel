@@ -2,3 +2,30 @@
     max-width: 100%;
     grid-area: image;
 }
+
+@media (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        max-height: 440px;
+    }
+}
+
+@media (max-width: 970px) {
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__image {
+        max-width: 320px;
+        max-height: 320px;
+    }
+}

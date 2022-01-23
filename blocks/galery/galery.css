@@ -6,4 +6,26 @@
     gap: 16px 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(3, 1fr);
+} 
+
+@media (max-width: 1024px) {
+    .galery{
+        max-width: 90%;
+        grid-gap: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .galery{
+        max-width: 93%;
+        grid-gap: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .galery {
+        gmax-width: 288px;
+        display: block;
+        margin-bottom: 64px;
+    }
 }

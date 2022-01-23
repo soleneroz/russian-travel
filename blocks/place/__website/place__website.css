@@ -6,3 +6,21 @@
     grid-area: url;
     justify-content: flex-end;
 }
+
+@media (max-width: 768px) { 
+    .place__website {
+        margin: 32px 16px 32px 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__website {
+        margin: 32px 16px 32px 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__website {
+        margin: 32px 16px;
+    }
+}

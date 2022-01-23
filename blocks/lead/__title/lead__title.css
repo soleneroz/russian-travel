@@ -6,3 +6,17 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+    .lead__title {
+        font-size: 57px;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}
