@@ -24,7 +24,7 @@
 
 @media (max-width: 320px) {
     .galery {
-        gmax-width: 288px;
+        max-width: 288px;
         display: block;
         margin-bottom: 64px;
     }
