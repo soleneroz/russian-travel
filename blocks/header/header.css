@@ -3,19 +3,28 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 56px;
-    /* margin: 0 auto; */
+    /* margin-bottom: 56px; */
+    margin: 0 auto;
+    padding: 28px 48px 56px 48px;
+
 }
 
 @media (max-width: 1024px) {
     .header {
-       margin-bottom: 48px;
+       padding-bottom: 48px;
        max-width: 90.8%;
     }
 }
 
-@media (max-width: 768px){
-    .header{
+@media (max-width: 768px) {
+    .header {
         max-width: 94%;
+        padding: 28px 24px 48px 24px;
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+      padding: 16px 16px 48px 16px;
+    }
+  }

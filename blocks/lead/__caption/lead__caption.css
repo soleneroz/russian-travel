@@ -8,6 +8,7 @@
     margin-top: 8px;
     align-self: flex-start;
     padding: 0;
+    color: #fff;
 }
 
 @media (max-width: 768px) {

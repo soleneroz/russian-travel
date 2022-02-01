@@ -2,7 +2,7 @@
     margin-top: 92px;
     max-width: 690px;
     height: auto;
-    margin-bottom: 92px;
+    /* margin-bottom: 92px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -11,7 +11,7 @@
 
 @media (max-width: 1024px) {
     .intro {
-        margin-bottom: 88px;
+        /* margin-bottom: 88px; */
     }
 }
 
@@ -26,6 +26,6 @@
     .intro {
         max-width: 288px;
         margin-top: 64px;
-        margin-bottom: 64px;
+        /* margin-bottom: 64px; */
     }
 }
