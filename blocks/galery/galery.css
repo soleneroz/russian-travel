@@ -9,15 +9,16 @@
 } 
 
 @media (max-width: 1024px) {
-    .galery{
-        max-width: 90%;
+    .galery {
+        max-width: 928px;
         grid-gap: 14px;
+        margin-top: 88px;
     }
 }
 
 @media (max-width: 768px) {
-    .galery{
-        max-width: 93%;
+    .galery {
+        max-width: 720px;
         grid-gap: 16px;
         margin-top: 88px;
     }
