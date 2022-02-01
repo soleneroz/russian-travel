@@ -2,12 +2,11 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     /* margin-bottom: 56px; */
     margin: 0 auto;
     padding: 28px 48px 56px 48px;
     align-items: flex-end;
-
 }
 
 @media (max-width: 1024px) {
