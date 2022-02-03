@@ -15,21 +15,3 @@
         margin: 0 16px;
     }
 }
-
-/* @media (max-width: 425px) {
-    .cover__subtitle {
-        max-width: 288px;
-        font-size: 14px;
-        line-height: 1.14;
-        margin-top: 16px;
-        margin-bottom: 33px;
-    }
-}
-@media (max-width: 320px) {
-    .cover__subtitle {
-        font-size: 14px;
-        line-height: 1.14;
-        margin-top: 16px;
-        margin-bottom: 33px;
-    }
-} */

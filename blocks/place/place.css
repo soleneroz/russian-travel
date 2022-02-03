@@ -7,30 +7,24 @@
     "title url"
     "image paragraph";
     margin-bottom: 80px;
-    /* margin-top: 92px; */
-}
-
-.place:first-child {
-    margin-top: 0px;
 }
 
 .place:last-child {
     margin-bottom: 0px;
 }
 
-@media (max-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .place {
         grid-template-columns: 440px 1fr;
         grid-gap: 48px 32px;
     }
 }
 
-@media (max-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-gap: 48px 28px;
         margin-bottom: 73px;
-        /* display: block; */
     }
 }
 
@@ -38,6 +32,7 @@
     .place {
         margin-bottom: 50px;
         grid-gap: 32px;
+        grid-template-columns: minmax(min-content, max-content);
         display: block;
     }
 }

@@ -2,6 +2,21 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.63;
-    /* margin-bottom: 33px; */
-    margin: 0;
+    margin: 0 0 33px 0;
+    max-width: 690px;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .intro__text {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+  }

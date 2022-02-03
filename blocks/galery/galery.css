@@ -6,29 +6,30 @@
     gap: 16px 16px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 92px;
 } 
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .galery {
         max-width: 928px;
         grid-gap: 14px;
         margin-top: 88px;
+        padding: 0 48px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .galery {
         max-width: 720px;
         grid-gap: 16px;
         margin-top: 88px;
+        padding: 0 24px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .galery {
-        max-width: 288px;
-        display: block;
-        margin-bottom: 64px;
-        margin-top: 64px;
+        max-width: 720px;
+        padding: 0 16px;
     }
 }

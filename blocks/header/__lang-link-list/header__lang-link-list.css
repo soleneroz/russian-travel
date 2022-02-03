@@ -2,5 +2,6 @@
     display: flex;
     list-style-type: none;
     padding: 0;
+    /* padding: 0 0 5px 0; вот это спорное решение моё на выравнивание ссылок, не уверен в нем, поэтому закомментил */
     margin: 0;
 }

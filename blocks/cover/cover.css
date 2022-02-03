@@ -4,7 +4,7 @@
     min-height: 740px;
     margin: 0 auto;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -33,14 +33,12 @@
 @media (max-width: 1024px) {
     .cover {
         min-height: 640px;
-        /* background-size: 100% 640px; */
     }
 }
 
 @media (max-width: 768px) {
     .cover {
         min-height: 480px;
-        /* background-size: 100% 300px; */
     }
 }
 
