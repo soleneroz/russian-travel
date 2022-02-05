@@ -8,8 +8,8 @@
     align-self: flex-end;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
     .place__website {
-        margin: 32px 16px;
+        padding: 32px 16px;
     }
 }
