@@ -1,6 +1,6 @@
 .cover {
     background-image: url('../../images/cover-trains.jpg');
-    max-width: 100%;
+    max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
     background-size: cover;
@@ -10,6 +10,7 @@
     display: flex;
     transition: opacity 4s ease;
     background-repeat: no-repeat;
+
 }
 
 .cover:before {

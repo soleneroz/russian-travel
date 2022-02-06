@@ -5,6 +5,9 @@
     z-index: 1;
     position: relative;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    text-align: center;
 }
-
-/* данный элемент лишней оберткой не считаю, без него верстка ломается */
